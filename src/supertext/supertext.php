@@ -5,7 +5,7 @@ use pocketmine\level\particle\FloatingTextParticle;
 use pocketmine\math\Vector3;
 use pocketmine\utils\Config;
 
-class supertext extends \pocketmine\plugin\PluginBase implements \pocketmine\event\Listener{//To Do teleport
+class supertext extends pocketmine\plugin\PluginBase::onCommand(pocketmine\command\CommandSender $sender, pocketmine\command\Command $command, string $label, array $args):{//To Do teleport
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
