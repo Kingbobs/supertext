@@ -5,7 +5,7 @@ use pocketmine\level\particle\FloatingTextParticle;
 use pocketmine\math\Vector3;
 use pocketmine\utils\Config;
 
-class supertext extends \pocketmine\plugin\PluginBase implements \pocketmine\event\Listener;
+class supertext extends \pocketmine\plugin\PluginBase implements \pocketmine\event\Listener
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
